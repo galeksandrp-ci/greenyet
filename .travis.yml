@@ -8,4 +8,4 @@ deploy:
   file: $(ls target/greenyet-*-standalone.jar)
   skip_cleanup: true
   on:
-    tags: true
+    all_branches: true
